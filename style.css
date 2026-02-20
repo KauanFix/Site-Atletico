@@ -25,6 +25,7 @@ body{
     justify-content: space-around;
     padding: 6px;
     display: flex;
+    flex-wrap: wrap;
 }
 .noticia{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,4 +39,30 @@ body{
 .img_noticia{
     height: 300px;
     width: 450px;
+}
+#escalacao{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2px;
+
+.icon_jogador{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+div h3{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+#jogador{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
 }
