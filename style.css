@@ -62,3 +62,8 @@ body{
    align-items: center;
    justify-content: space-between;
 }
+footer{
+    background-color: rgb(56, 59, 61);
+    color: ghostwhite;
+    text-align: center;
+}
