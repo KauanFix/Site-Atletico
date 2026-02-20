@@ -20,3 +20,22 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-right: 100px;
 }
+#noticias{
+    text-align: center;
+    justify-content: space-around;
+    padding: 6px;
+    display: flex;
+}
+.noticia{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: honeydew;
+    background-color: rgb(30, 31, 32);
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 500px;
+}
+.img_noticia{
+    height: 300px;
+    width: 450px;
+}
